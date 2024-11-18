@@ -1,16 +1,16 @@
 :root {
-    --primary-bg: #f5f5f0;
+    --primary-bg: #ffffcc;
     --secondary-bg: #e8e8e0;
     --text-color: #2c2c2c;
-    --accent-color: #7c8c6a;
-    --border-color: #d1d1c7;
+    --accent-color: #b4da87;
+    --border-color: #acac98;
     --shadow: rgba(0, 0, 0, 0.1);
 }
 
 body {
     background-color: var(--primary-bg);
     color: var(--text-color);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Comic Sans', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 20px;
 }
@@ -43,6 +43,14 @@ button:hover {
 
 h1 {
     text-align: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12vh; /* Optional: to center vertically */
+    background-color: transparent;
 }
 
 input {
